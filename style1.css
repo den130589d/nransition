@@ -1,0 +1,47 @@
+.check{
+	width: 101px;
+	height: 40px;
+	
+	border-radius: 40px;
+	box-shadow:inset 0 0 5px rgba(0,0,0,0.8);
+	background: radial-gradient(circle closest-side at 20px 20px, #ffffff 83%, #959595 85%);
+	
+}
+.radio{
+	width: 50px;
+	height: 50px;
+	margin-left: 51px;
+	border-radius: 50px;
+	box-shadow:inset 0 0 5px rgba(0,0,0,0.8);
+	background: #959595;
+}
+.inline{
+	display: inline-block;
+}
+label{
+	margin-bottom: 25px;
+}
+.text{
+	
+	font-family: verdana;
+	font-size: 18px;
+	vertical-align: top;
+	margin-left: 24px;
+	padding-top: 7px;
+	
+	
+}
+
+label.check:active{
+	
+	
+	background: radial-gradient(circle closest-side at 80px 20px, #ffffff 83%, #9fd468 85%);
+	-webkit-transition:background 5s ease-out 0.5s;
+}
+
+label.radio:active{
+	
+	
+	background: radial-gradient(circle closest-side at 25px 25px, #ffffff 75%, #9fd468 78%);
+	transition:background 5s ease-out 0.5s;
+}
